@@ -268,7 +268,7 @@ Color = ['blue', 'skyblue']
 
 # Berdasarkan workingday
 sns.barplot(
-    x='Hari Kerja',
+    x='workingday',
     y='Count',
     data=workingday_rent_df,
     palette=Color,
