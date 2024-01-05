@@ -7,7 +7,7 @@ import streamlit as st
 st.title('Dashboard Rental Sepeda 🚲')
 st.markdown("---")
 # Menyiapkan data day
-day_df = pd.read_csv("Masdarul/Bike_Sharing_Dataset/Dashboard/dashboard.py")
+day_df = pd.read_csv("https://raw.githubusercontent.com/Masdarul/Bike_Sharing_Dataset/main/Dashboard/day.csv")
 day_df.head()
 
 # Menghapus kolom tidak penting 
@@ -128,7 +128,7 @@ max_date = pd.to_datetime(day_df['Dateday']).dt.date.max()
 
 with st.sidebar:
 
-    st.image('Masdarul/Bike_Sharing_Dataset/Dashboard/img/Logo.png')
+    st.image('https://raw.githubusercontent.com/Masdarul/Bike_Sharing_Dataset/main/Dashboard/img/Logo.png')
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
