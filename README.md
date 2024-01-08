@@ -3,6 +3,10 @@ Ini adalah tugas akhir dari Dicoding pada mata kuliah “Belajar Analisis Data D
 ## File Structures
 ```
 .
+├── .devcontainer
+|   └── devcontainer.json
+├── .streamlit
+|   └── config.toml
 ├── Dashboard
 │   ├── img
 |   |   └──Logo.png
@@ -35,5 +39,5 @@ pip install zip-files
 ```
 ## Jalankan aplikasi streamlit
 ```Python
-python -m streamlit run c:/Users/DELL/Desktop/Submission/Dashboard/dashboard.py
+streamlit run dashboard.py
 ```

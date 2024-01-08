@@ -5,7 +5,7 @@ import streamlit as st
 
 # Judul 
 st.title('Dashboard Rental Sepeda 🚲')
-st.markdown("---")
+
 # Menyiapkan data day
 day_df = pd.read_csv("https://raw.githubusercontent.com/Masdarul/Bike_Sharing_Dataset/main/Dashboard/day.csv")
 day_df.head()
